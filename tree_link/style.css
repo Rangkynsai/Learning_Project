@@ -46,6 +46,7 @@ button{
     font-family: 'Montserrat', sans-serif;
     background-color:#e5303c;
     border:none;
+    cursor: pointer;
 }
 .btn-1{
     margin-top:none;

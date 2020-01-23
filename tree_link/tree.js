@@ -8,5 +8,8 @@ function myfunction3(){
     window.location.href = "https://www.instagram.com/co_dtechr/";
 }
 function myfunction4(){
+    window.location.href = "https://www.hackerrank.com/vtu10669?hr_r=1";
+}
+function myfunction5(){
     window.location.href = "https://github.com/Rangkynsai";
 }

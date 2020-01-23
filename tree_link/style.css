@@ -51,13 +51,14 @@ button{
 .btn-1{
     margin-top:none;
 }
-@media (min-width:730px){
+@media (min-width:500px){
     body{
         background-image:linear-gradient(#060042 2%,#20A39E 108%);
         height:95.5vh;
     }
     button{
         font-size:1rem;
+        padding:1;
     }
 }
 button:hover{

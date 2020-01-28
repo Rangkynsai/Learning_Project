@@ -17,7 +17,7 @@ body{
 }
 ul li{
     display:inline-block;
-    margin:2em 0 2em 2em;
+    margin:1em 0 1em 1em;
 }
 ul li a{
     color:#fff;
@@ -32,20 +32,21 @@ ul li a{
 }
 .search-container{
     background-color:#fff;
-    margin:8em 0 1em 3em !important;
-    padding:2em;
+    margin:7em 0 0 3em !important;
+    padding:1em;
     border-radius:.3em;
-    width:40em;
+    width:30em;
+    height:4em;
 }
 input[type="text"]{
     padding:.8em;
-    width:70%;
+    width:25em;
     margin-top:1.2em;
     border:1px solid#ed900e;
 }
 button[type="submit"]{
-    padding:.8em;
-    width:25%;
+    padding:.6em;
+    width:7em;
     background-color:#fd990d;
     border:none;
     border-radius:.5em;
@@ -62,7 +63,7 @@ button[type="submit"]:hover{
     background-color: #ed900e;
 }
 .info{
-    margin:5em 0 1em 7em;
+    margin:4em 0 1em 5em;
     width:300px;
 }
 .info h1{
@@ -87,25 +88,25 @@ button[type="submit"]:hover{
     text-align:center;
     color:#ed900e;
     font-weight: bold;
-    font-size:3rem;
+    font-size:2rem;
     letter-spacing:.2em;
 
 }
 .order-menu{
     display: flex;
     flex-wrap: wrap;
-    max-width:100%;
-    margin:5px 50px;
+    max-width:1500px;
+    margin:5px 150px;;
 }
 .order{
     height:auto;
-    width:20em;
+    width:17em;
     margin:2em;
     background-color:#fff;
 }
 .order p{
     margin:.3em;
-    font-size:1.8rem;
+    font-size:1rem;
     color:#ed900e;
 }
 .order button{

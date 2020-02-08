@@ -27,7 +27,7 @@ ul li{
     margin:1em;
     font-weight:bold;
     padding:.3em;
-    border-radius: 1em;
+    border-radius: .6em;
 }
 ul li  a{
     color:#fff;
@@ -90,7 +90,7 @@ span{
     /*border:2px solid #000;*/
     width:18em;
     color:#000;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+    box-shadow: 2px 2px 14px #000000;
 }
 .art button{
     margin-top:1em;
@@ -115,7 +115,7 @@ span{
     text-align: justify;
 }
 button:hover{
-    background-color:#404960;
+    background-color:#1f3c86;
 }
 footer{
     display:flex;

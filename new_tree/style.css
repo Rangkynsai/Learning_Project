@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat&display=swap');
 *{
     margin:0;
     padding:0;
@@ -24,7 +24,7 @@ body{
 }
 .main{
     width:100%;
-    height:auto;
+    height:100%;
     background-color: #083358;
 }
 h1{
@@ -42,17 +42,14 @@ h1{
     background-color: #fff;
     margin:.5em;
 }
-/*#li1,#li2{
-    margin-left:1em;
-}*/
 .content{
     max-width:340px;
     margin:1em auto 1em auto;
-    /*border:1px solid #fff;*/
     display: flex;
     flex-wrap: wrap;
 }
 .favo{
+    text-align:center;
     background-color:#fff;
     max-width:322px;
     height:91px;
@@ -70,7 +67,7 @@ p{
     margin-top:.3em;
 }
 #insta{
-    color:#fd0054;
+    color:#b83b5e;
 }
 #git{
     max-width:38px;
@@ -81,9 +78,9 @@ p{
     color:#2d6cdf;
 }
 #hack{
+    font-family: 'Fredoka One', cursive;
     font-size:38px;
     text-decoration: none;
     font-weight:bold;
-    color:#17b978;
-    
+    color:#17b978; 
 }

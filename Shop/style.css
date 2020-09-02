@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#0E1555;
+    position: sticky;
+    top:0;
+    left:0;
+    height:4rem;
+    width:100%;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    padding:.5rem;
+}
+.logo{
+    height:auto;
+    max-width: 250px;
+}
+h1{
+    font-size:1.5rem;
+    text-align:center;
+    font-weight: bold;
+}
+h2{
+    font-size:.7rem;
+    text-align:center;
+}
+h3{
+        font-size:1rem;
+        color:#0E1555;
+        margin:1rem 3rem;
+        font-family: 'Montserrat', sans-serif;
+}
+main{
+    margin:0 3rem 3rem;
+    display:grid;
+    grid-template-columns: 61rem 21rem;
+}
+.content-apra{
+    width:61rem;
+    background-color:#FD367E;
+    height:20rem;
+    color:#fff;
+    padding:1rem;
+    margin:.5rem 0; 
+}
+.date{
+    margin:0;
+    font-size:1rem;
+    color:#fff;
+    font-weight:lighter;
+}
+.title{
+    margin:.5rem 0;
+    text-align: left;
+    font-size:2rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.para-content{
+    font-size:1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:normal;
+}
+.followme{
+    width:21rem;
+    height:24rem;
+    background-color:#28c7fa;
+    padding:1rem;
+}
+.followme h4{
+    color:#FD367E;
+    font-family: 'Montserrat', sans-serif;
+}
+.log{
+    display:flex;
+    flex-direction: row;
+    margin:1rem 0;
+}
+i{
+    font-size:2rem;
+    color:#fff;
+    margin-right:1rem;
+    cursor:pointer;
+}
+.advertise{
+    margin:1rem 0;
+    width:21rem;
+    height:24rem;
+    background-color:#28c7fa;
+    padding:1rem;
+}
+a{
+    color:#fff;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:1rem;
+    display:block;
+
+}
+.aside{
+    margin:0rem 0rem 0rem 2rem;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+}
+select{
+    width:10rem;
+    height:2rem;
+    margin-left:2rem;
+}
+footer{
+    background-color:#060607;
+    width:100%;
+    height:20rem;
+    padding-top:10rem;
+    color:#fff;
+}
+footer a{
+    text-align: center;
+}
+img{
+    width:100%;
+    height:409px;
+}
+h6{
+    color:#0E1555;
+    font-size:1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-title{
+    text-align:left;
+    margin:1rem 0rem;
+    font-size:2rem;
+    color:#FD367E;
+    font-family: 'Montserrat', sans-serif;
+}
+.paragraph{
+    text-align:left;
+    margin:1rem 0rem;
+    font-size:1rem;
+    color:#0E1555;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.comment{
+    width:20rem;
+    height:24rem;
+    display:block;
+}
+.coment{
+    text-align:left;
+    font-size:2rem;
+    color:#FD367E;
+}
+input[type="email"],textarea{
+    width:100%;
+    padding:1rem;
+    margin:1rem 0rem;
+        border:2px solid #0E1555;
+}
+input[type="submit"]{
+    padding:.5rem 1.2rem;
+    border-radius:7px;
+    border:none;
+    background-color:#FD367E;
+    color:#fff;
+}
